@@ -1,0 +1,123 @@
+.x-container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+  top: 0;
+  left: 0;
+  /* width: 100%;
+  height: 100%; */
+  background: rgba(0, 0, 0, 0.5);
+  
+  /* z-index: 0; */
+}
+.x-childcontainer{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DCDCDC;
+    width: 44%;
+    height: 90%;
+    border-radius: 1em;
+}
+
+.ximagecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    border: 0px solid black;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+.ximageposition{
+    display: flex;
+
+    width: 22vw;
+    height: 5vh;
+    border: 0px solid black;
+}
+#xsinginimg{
+    width: 4vw;
+    /* height: 25px; */
+}
+.closeicon{
+    text-align: start;
+}
+
+.x-childcontainer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+    border: 0px solid red;
+    text-align: start;
+
+}
+.x-signindetails{
+    display: flex;
+    flex-direction: column;
+    width: 52%;
+    height: 100%;
+    border: 0px solid green;
+}
+#xsigninbuttonsize,#xapplebutton{
+    height: 49px;
+    border-radius: 2em;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DCDCDC;
+    font-weight: bold;
+    font-size: 15px;
+}
+#xsigninsize,#xsigninimgsize{
+    height: 20px;
+}
+
+.siginx{
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 35px;
+}
+#xoutlined-basic{
+    height: 38px;
+}
+
+#xnext{
+    height: 49px;
+    border-radius: 2em;
+    background: black;
+    border: 1px solid #DCDCDC;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+#xfpwd{
+    height: 49px;
+    border-radius: 2em;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DCDCDC;
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 15px;
+}
+.horizatal{
+    width: 100%;
+}
+.dont{
+    color: #878787;
+    font-size: 20px;
+}
+
+.dont a{
+    text-decoration: none; 
+    color: #007bff;
+}
+.dont a:hover{
+    text-decoration: underline;
+    color: #0056b3;
+}

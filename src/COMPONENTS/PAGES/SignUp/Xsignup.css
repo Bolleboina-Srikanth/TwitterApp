@@ -1,0 +1,106 @@
+.xsignupfull-screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.xsignupchild{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DCDCDC;
+    width: 40%;
+    height: 90%;
+    border-radius: 1em;
+}
+
+.xAndStep{
+    display: flex;
+    flex-direction: row;
+    border: 0px solid black;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    padding: 15px;
+    height: 19px;
+    width: 95%;
+}
+
+.steptext{
+    display: flex;
+    
+    border: 0px solid;
+    width: 34vw;
+    text-align: start;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.xsignupchild2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 75%;
+    height: 100%;
+    border: 0px solid red;
+}
+
+#xcrtacct{
+    font-weight:bold;
+    font-size: 30px;
+}
+
+#xTextoutlined-basic{
+    width: 28.3vw;
+    height: 4vh;
+
+}
+.xuseEmail {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    text-decoration: none;
+    font-size: 18px;
+}
+.xuseEmail a{
+    text-decoration: none;
+    color: #007bff;
+}
+
+.xuseEmail a:hover{
+    text-decoration: underline;
+    color: #0056b3;
+}
+#xsignupdate{
+    font-weight: bold;
+    font-size: 18px;
+}
+.xcrtacctfulltext{
+    display: flex;
+    text-align: start;
+    font-weight: lighter;
+}
+#xdate{
+    width: 29.8vw;
+    height: 8vh;
+    border-radius: 0.5em;
+}
+
+.xsignupnext{
+    width: 30vw;
+    height: 8vh;
+    border-radius: 2em;
+    font-size: 19px;
+    background-color: gray;
+    color:whitesmoke;
+    border: none;
+}

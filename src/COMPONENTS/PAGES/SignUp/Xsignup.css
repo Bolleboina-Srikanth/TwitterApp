@@ -18,7 +18,7 @@
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #DCDCDC;
     width: 40%;
-    height: 90%;
+    height: 96%;
     border-radius: 1em;
 }
 
@@ -54,6 +54,15 @@
     border: 0px solid red;
 }
 
+.xinputfiels{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: space-around;
+    border: 0px solid orange;
+    height: 50vh;
+}
+
 #xcrtacct{
     font-weight:bold;
     font-size: 30px;
@@ -70,6 +79,7 @@
     width: 100%;
     text-decoration: none;
     font-size: 18px;
+    position:static;
 }
 .xuseEmail a{
     text-decoration: none;

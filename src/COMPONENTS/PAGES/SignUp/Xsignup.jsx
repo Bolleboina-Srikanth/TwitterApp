@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import './Xsignup.css';
 import CloseIcon from '@mui/icons-material/CloseOutlined';
 import TextField from '@mui/material/TextField';
+import { Register } from "../../Services/UserServices/userservices";
 
 function Xsignup({ valueReceived }) {
 
@@ -35,7 +36,7 @@ function Xsignup({ valueReceived }) {
 
         }
     )
-    const handlepage = () => {
+    const handlepage = async () => {
         let nameTest = nameRegex.test(userInput.Name);
         let emailTest = emailRegex.test(userInput.email);
         let passwordtest = passwordRegex.test(userInput.password);
@@ -59,6 +60,14 @@ function Xsignup({ valueReceived }) {
 
             }
         ))
+        if( nameTest === true && emailTest === true && passwordtest === true && confirmPasswordtest === true && userInput.password ===userInput.confirmPassword)
+        {
+            console.log("sending reqest")
+         let response = await Register(userInput);
+         console.log(response);
+         
+         
+        }
 
     }
 

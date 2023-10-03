@@ -1,0 +1,205 @@
+.FContainer {
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FContainer1 {
+    width: 95%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.FSearchIcon1{
+
+    height: 6%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-items: center; */
+    /* gap: 3%;  */
+    border-radius: 20px;
+    /* border: 1px solid green; */
+    
+    background-color: #e9e7e3;
+
+    
+
+}
+.FSearchIcon {
+
+    height: 100%;
+    width: 90%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 3%;
+    /* border: 1px solid white; */
+    /* border-radius: 20px; */
+    /* background-color: gray; */
+
+}
+.FSUB{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: rgb(238, 234, 234); */
+    /* background-color: rgb(235, 226, 226); */
+    background-color: #e9e7e3;
+
+
+    border-radius: 10px;
+}
+.FSUBP{
+width: 95%;
+height: 25%;
+/* border: 1px solid black; */
+display: flex;
+align-items: center;
+font-size: large;
+font-weight: bolder;
+
+}
+.FSubd{
+    width: 95%;
+    height: 30%;
+    /* border: 1px solid black; */
+    display: flex;
+    text-align: left;
+    font-size: small;
+    align-items: center;
+}
+.FSubb1{
+    width: 95%;
+    height: 25%;
+    /* border: 1px solid black; */
+}
+.FSubbt{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    /* border: 1px solid black; */
+
+}
+.FPosts{
+    height: 66%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e9e7e3;
+    
+
+    border-radius: 10px;
+
+}
+.FPOSts1{
+    width: 95%;
+    height: 8%;
+    font-weight: bold;
+    display: flex;
+}
+.FPosts2{
+    height: 15%;
+    width: 95%;
+    display: flex;
+}
+.FLive{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+.Flive1{
+width: 90%;
+height: 20%;
+font-size: smaller;
+display: flex;
+}
+.FLTitle{
+    width: 90%;
+    height: 30%;
+    font-size: large;
+    font-weight: bold;
+display: flex;
+
+}
+.FPic1{
+    height: 100%;
+    width: 20%;
+    /* border: 1px solid black; */
+    /* border-radius: 20px; */
+}
+#cricketimg{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.FTrend{
+    width: 95%;
+    height: 14%;
+    /* border: 1px solid black; */
+}
+.FTend1{
+    height: 33%;
+    display: flex;
+    font-size: smaller;
+    justify-content: space-between;
+    
+}
+.FTrendTitle{
+    height: 40%;
+    font-weight: bold;
+    display: flex;
+}
+.FTItleNm{
+    color: rgb(182, 175, 175);
+}
+#FTItleNm{
+    color: rgb(49, 47, 47);
+}
+.FTrendpostsN{
+    height: 27%;
+    display: flex;
+    font-size: smaller;
+
+}
+.FtrendI{
+    width: 95%;
+    height: 14%;
+    /* border: 1px solid black; */
+}.FTrendE{
+    width: 95%;
+    height: 14%;
+    /* border: 1px solid black; */
+}
+.FTrendE2{
+    width: 95%;
+    height: 14%;
+    /* border: 1px solid black;  */
+}
+.FHEYAS{
+    color: rgb(54, 161, 233);
+
+}
